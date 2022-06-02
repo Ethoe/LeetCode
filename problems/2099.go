@@ -1,11 +1,11 @@
-package main
+package problems
 
 import (
 	"fmt"
 	"sort"
 )
 
-func main() {
+func Run2099() {
 	fmt.Println(maxSubsequence([]int{2, 1, 3, 3}, 2))
 }
 func maxSubsequence(nums []int, k int) []int {

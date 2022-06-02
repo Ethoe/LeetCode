@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	problems.Run237()
+	problems.Run187()
 }

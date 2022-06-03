@@ -2,7 +2,7 @@ package problems
 
 import "fmt"
 
-func Run187() {
+func (p Problem) Run187() {
 	fmt.Println("Problem 187: https://leetcode.com/problems/repeated-dna-sequences/")
 	s := "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
 	fmt.Println(findRepeatedDnaSequences(s))

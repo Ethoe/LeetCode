@@ -5,7 +5,8 @@ import (
 	"sort"
 )
 
-func Run2099() {
+func (p Problem) Run2099() {
+	fmt.Println("Problem 2099: https://leetcode.com/problems/find-subsequence-of-length-k-with-the-largest-sum/")
 	fmt.Println(maxSubsequence([]int{2, 1, 3, 3}, 2))
 }
 func maxSubsequence(nums []int, k int) []int {

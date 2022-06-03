@@ -14,7 +14,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func Run237() {
+func (p Problem) Run237() {
 	fmt.Println("Problem 237: https://leetcode.com/problems/delete-node-in-a-linked-list/")
 	numbers := []int{4, 5, 1, 9}
 	head := &ListNode{numbers[0], nil}
@@ -43,4 +43,5 @@ func printList(node *ListNode) {
 		fmt.Print(node.Val)
 		node = node.Next
 	}
+	fmt.Print("\n")
 }
